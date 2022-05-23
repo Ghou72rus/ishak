@@ -9,11 +9,14 @@
 </head>
 <body>
     <div class="navigate">
-        <span>Единая Система</span>
-        <span>Учета Запчастей</span>
-        <a href="#">Главная</a>
-        <a href="#"> <u>Обратная связь</u></a>
+        <p class="text1">Единая Система</p>
+        <p class="text2">Учета Запчастей</p>
+        <div class="ride_menu">
+            <a href="#">Главная</a>
+            <a href="#">Обратная связь</a>
+        </div>
     </div>
+    
     <div class="sidenav">
         <a href="#"><u>Установка</u></a>
         <a href="#"><u>Обслуживание</u></a>
@@ -22,6 +25,8 @@
         <a href="#"><u>Отчеты</u></a>
         <img src="girl.jpg" alt="photo">
     </div>
+    <hr>
+    <a href="#">Главная</a>
     <div class="center_main">
         <H4>
             Добро пожаловать в систему учёта запчастей!
@@ -35,6 +40,6 @@
             Отчеты о данных по обслуживанию, хранению запчастей вы можете построить в разделе "Отчеты"
         </p>
     </div>
-
+    <p class="bottom_text">Исполнители: <u>Николаев Н.А</u>; 2022г.</p>
 </body>
 </html>
