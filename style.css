@@ -3,38 +3,30 @@
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 200px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    z-index: 1; 
+    top: 0; 
     left: 0;
     background-color: rgb(149, 170, 197); /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden; 
     margin-top: 200px;
 }
 
-/* The navigation menu links */
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #0127ff;
+    color: rgb(22, 53, 93);
     display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: #fceb00;
 }
 
-/* Style page content */
-.main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-}
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
 }
 img{
     height: 150px;
@@ -56,23 +48,18 @@ body{
 }
 .line{
     background-color: orange;
-    height: 100%;
-    width: 10px;
-    margin-left: 1000px;
+    height: 20px;
 }
-hr{
-    height: 10px;
-    color: rgb(255, 120, 0);
-    border: solid;
-    background-color: rgb(255, 120, 0);
-}
+
 .text1{
     color: white;
-    font-size: 20px;
+    font-size: 40px;
+    margin-left: 10px;
 }
 .text2{
     color: white;
     font-size: 20px;
+    margin-left: 30px;
 }
 .ride_menu{
     width:200px;
@@ -87,6 +74,15 @@ hr{
 .ride_menu a{
     color: white;
 }
+.ride_menu a:hover{
+    color: #fceb00;
+}
 .bottom_text{
     text-align: center;
+}
+.main_text{
+    margin-left: 10%;
+}
+.main_text:hover{
+    color: #fceb00;
 }
