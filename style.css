@@ -86,3 +86,7 @@ body{
 .main_text:hover{
     color: #fceb00;
 }
+th{
+    background-color: aquamarine;
+    text-align: center;
+}

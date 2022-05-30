@@ -1,8 +1,7 @@
 <?php
-     
+  $host="localhost";   
   $user="root";           
-  $pass=NULL;    
+  $pass="";    
   $database="система";        
-  $dblink = @mysql_connect($host,$user,$pass);
-  mysql_select_db($database,$dblink);
+  $link = mysqli_connect($host,$user,$pass);
 ?>
